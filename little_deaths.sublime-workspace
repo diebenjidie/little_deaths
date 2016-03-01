@@ -1,0 +1,200 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"widt",
+				"max-width"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"wi",
+				"windowWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 306.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/deathnoteuser/Documents/WEBZ/little_deaths/css/backgrounds.css",
+		"/Users/deathnoteuser/Documents/WEBZ/little_deaths/index.html",
+		"/Users/deathnoteuser/Documents/WEBZ/examplesite2/index.html",
+		"/Users/deathnoteuser/Documents/WEBZ/css-tutorial/css/styles.css",
+		"/Users/deathnoteuser/Documents/WEBZ/css-tutorial/index.html",
+		"/Users/deathnoteuser/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/deathnoteuser/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/deathnoteuser/Documents/WEBZ/examplesite2/css/styles.css",
+		"/Users/deathnoteuser/Documents/WEBZ/examplesite2/styles.css",
+		"/Users/deathnoteuser/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/deathnoteuser/Documents/rndm/EVERYTHINGIDOIDOFORYOU/index.html",
+		"/Users/deathnoteuser/Documents/Random Folders for Random Things 72610/HTML/mydoc.html",
+		"/Users/deathnoteuser/Desktop/class_sketch/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hello",
+			"<p>",
+			"0ahUKEwjmy_bVqc3KAhVikIMKHQ3tAk4QMwgyKAAwAA"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/deathnoteuser/Documents/WEBZ/examplesite2/styles.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
