@@ -1,24 +1,25 @@
 html {
 	
     background: #34c3f5; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#34c3f5, #ee80ef); /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient( #34c3f5, #ee80ef); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#34c3f5, #ee80ef); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#34c3f5, #ee80ef); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#34c3f5, #ee80ef); /* Standard syntax (must be last) */
-    background-size: auto 100%;
+    background-attachment: fixed;
     height: 100%;
     cursor:crosshair;
+
 
 }
 
 @font-face {
-    font-family:"blk";
-    src: url('blkchcry-webfont.eot');
-    src: url('blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
-         url('blkchcry-webfont.woff2') format('woff2'),
-         url('blkchcry-webfont.woff') format('woff'),
-         url('blkchcry-webfont.ttf') format('truetype'),
-         url('blkchcry-webfont.svg#blackchanceryregular') format('svg');
+    font-family:"blk"; /* thx to Doug Miles and DaFont.com found at http://www.dafont.com/black-chancery.font */
+    src: url('../fonts/blkchcry-webfont.eot');
+    src: url('../fonts/blkchcry-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blkchcry-webfont.woff2') format('woff2'),
+         url('../fonts/blkchcry-webfont.woff') format('woff'),
+         url('../fonts/blkchcry-webfont.ttf') format('truetype'),
+         url('../fonts/blkchcry-webfont.svg#blackchanceryregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,18 +27,22 @@ html {
 
 
 #title {
-	margin: 50px;
+	padding: 50px;
 	text-align: center;
 	font-family:"blk";
     color: #c5b358;
     font-size: 3rem;
-    text-shadow: 0 0 20px #000;
-    
+    text-shadow: 0 0 20px #000; 
+}
 
-
-    
+.standards{
+    margin: 0 auto;
+    padding:5px;
 }
 
 p{
+    margin: 0 auto;
 	font-family:Courier;
+    padding:10px;
 }
+

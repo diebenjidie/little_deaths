@@ -1,10 +1,7 @@
 //Copy+Pasted from Snazzyspace//
 
-
-<script type="text/javascript">
-// <![CDATA[
 var colour="#a800ff";
-var sparkles=120;
+var sparkles=150;
 
 /****************************
 *  Tinkerbell Magic Sparkle *
@@ -170,5 +167,4 @@ function createDiv(height, width) {
   div.style.backgroundColor=colour;
   return (div);
 }
-// ]]>
-</script>
+

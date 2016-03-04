@@ -1,0 +1,48 @@
+a{
+	cursor:crosshair;
+	font-family: Courier;
+	
+}
+
+
+.container{
+ 	width:100%;
+    margin: 0 auto;
+   	max-width: 800px;
+}
+
+.row{
+	position: static;
+}
+
+.column{
+	float: left;
+	position: relative;
+	padding: 20px;
+
+}
+
+a:link, a:active, a:visited {
+	font-style: normal;
+	text-decoration: none;
+	color:#000;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+@keyframes example {
+    from {color:#000;}
+    to {color:#a80ce2;}
+
+}
+
+a:hover {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
