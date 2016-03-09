@@ -27,7 +27,7 @@ html {
 
 
 #title {
-	padding: 50px;
+	padding:20px;
 	text-align: center;
 	font-family:"blk";
     color: #c5b358;
@@ -44,5 +44,43 @@ p{
     margin: 0 auto;
 	font-family:Courier;
     padding:10px;
+}
+
+div {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a{
+    cursor:crosshair;
+    font-family: Courier;
+}
+
+a:link, a:active, a:visited {
+    font-style: normal;
+    text-decoration: none;
+    color:#000;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@keyframes example {
+    from {color:#000;}
+    to {color:#a80ce2;}
+
+}
+
+a:hover {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
 }
 
