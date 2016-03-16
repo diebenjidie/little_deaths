@@ -67,6 +67,7 @@ a:link, a:active, a:visited {
 }
 
 a:hover{
+    cursor:help;
     text-decoration: underline;
 }
 

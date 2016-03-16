@@ -1,4 +1,16 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container{
+ 	width:90%;
+    margin: 0 auto;
+   	max-width: 800px;
+}
+
+
 img{
+	width:40%;
 	display: block;
 	margin: 0 auto;
 }
@@ -16,3 +28,19 @@ img{
 	padding-bottom:20px;
 }
 
+p{
+		font-size: 75%;
+}
+
+@media (min-width:640px){
+	p{
+		font-size: inherit;
+	}
+}
+
+
+/* ----- Clearfix by Nicolas Gallagher ----- */
+.clearfix:before,
+.clearfix:after { content: " "; display: table;}
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }	

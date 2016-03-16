@@ -1,3 +1,13 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container{
+ 	width:90%;
+    margin: 0 auto;
+   	max-width: 800px;
+}
+
 .back{
 	float:left;
 	margin-left:10px;
@@ -7,18 +17,30 @@
 .row {
 		width:100%;
 		line-height: 0;
-		text-align:center;}
+		margin: 0 auto;
+}
 
 .column {
-		width:25%;
+        float: left;
+}
+
+img{
+	width:100%;
+}
+
+@media (min-width: 640px){
+	
+	.row img {
+		width:100%;
+	}
+	.column {
 		display:inline-block;
+	}
+	.column.half {width:50%;}
 }
 
-p {
-		margin:0;
-		padding:0;
-}
-
-.row img {
-	width:22.5%;
-}
+/* ----- Clearfix by Nicolas Gallagher ----- */
+.clearfix:before,
+.clearfix:after { content: " "; display: table;}
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }	
