@@ -16,13 +16,10 @@ img{
    	max-width: 800px;
 }
 
-
 .column{
 	padding: 20px;
 	position: static;
 }
-
-
 
 @media (min-width: 890px) {
 	
@@ -37,4 +34,3 @@ img{
 .clearfix:after { content: " "; display: table;}
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }	
-

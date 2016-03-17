@@ -8,13 +8,11 @@
    	max-width: 800px;
 }
 
-
 img{
 	width:40%;
 	display: block;
 	margin: 0 auto;
 }
-
 
 .text{
 	text-align: left;
@@ -37,7 +35,6 @@ p{
 		font-size: inherit;
 	}
 }
-
 
 /* ----- Clearfix by Nicolas Gallagher ----- */
 .clearfix:before,

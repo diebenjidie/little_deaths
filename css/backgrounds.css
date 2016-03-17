@@ -8,8 +8,6 @@ html {
     background-attachment: fixed;
     height: 100%;
     cursor:crosshair;
-
-
 }
 
 @font-face {
@@ -22,9 +20,7 @@ html {
          url('../fonts/blkchcry-webfont.svg#blackchanceryregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 #title {
 	padding:20px;
@@ -63,7 +59,6 @@ a:link, a:active, a:visited {
     font-style: normal;
     text-decoration: none;
     color:#000;
-
 }
 
 a:hover{
@@ -74,7 +69,6 @@ a:hover{
 @keyframes example {
     from {color:#000;}
     to {color:#a80ce2;}
-
 }
 
 a:hover {
